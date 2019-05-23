@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="TestingSuite">
+<test name="AddingContact">
+
+<parameter name="Loginemail" value="techfios@gmail.com"/>
+<parameter name="password" value="abc123"/>
+<parameter name="Name" value="John Smith"/>
+<parameter name="Company" value="techfios"/>
+<parameter name="Phone" value="12345678"/>
+<parameter name="Email" value="123@demo.com"/>
+<parameter name="Address" value="abc123lane"/>
+<parameter name="City" value="Berry"/>
+<parameter name="State" value="Very"/>
+<parameter name="Zip" value="00000"/>
+
+<classes>
+<class name="test.AddContactTest"/>
+</classes>
+
+</test>
+
+</suite>
